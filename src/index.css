@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* App baseline */
+html, body, #root { height: 100%; }
+body { @apply bg-gradient-to-b from-gray-950 via-black to-gray-900 text-slate-200; }
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar { width: 10px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #0f172a; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #374151; border-radius: 9999px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #4b5563; }
+
+/* Card & glass utilities */
+.glass { @apply bg-white/5 backdrop-blur border border-white/10 shadow-xl; }
+.brand-gradient { @apply bg-gradient-to-r from-red-500 via-rose-500 to-pink-600; }
+.text-brand { color: #ef233c; }
+.bg-brand { background-color: #ef233c; }
+
+a { @apply underline-offset-2 decoration-dotted; }

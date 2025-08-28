@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://obuddy5000.com/sitemap.xml
